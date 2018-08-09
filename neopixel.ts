@@ -479,19 +479,6 @@ namespace neopixel {
     }
 
     /**
-     * Converts red, green, blue channels into a RGB color
-     * @param red value of the red channel between 0 and 255. eg: 255
-     * @param green value of the green channel between 0 and 255. eg: 255
-     * @param blue value of the blue channel between 0 and 255. eg: 255
-     */
-    //% weight=1
-    //% blockId="neopixel_rgb" block="red %red|green %green|blue %blue"
-    //% advanced=true
-    export function rgb(red: number, green: number, blue: number): number {
-        return packRGB(red, green, blue);
-    }
-
-    /**
      * Gets the RGB value of a known color
     */
     //% weight=2 blockGap=8
